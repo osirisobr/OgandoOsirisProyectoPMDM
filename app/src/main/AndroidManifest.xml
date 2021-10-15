@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.OsirisOgandoProyectoPMDP1">
         <activity
+            android:name=".RegistroActivity"
+            android:exported="true" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
