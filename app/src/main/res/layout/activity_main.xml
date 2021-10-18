@@ -11,12 +11,15 @@
 
     <TextView
         android:id="@+id/tvTitulo"
-        android:layout_width="94dp"
-        android:layout_height="21dp"
-        android:layout_marginTop="200dp"
+        android:layout_width="308dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="204dp"
         android:text="Iniciar Sesion"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.536"
+        app:layout_constraintHorizontal_bias="0.543"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -54,6 +57,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:hint="Nombre" />
+
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
