@@ -5,13 +5,18 @@
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
+        android:label="TENNEBRO"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.OsirisOgandoProyectoPMDP1">
         <activity
             android:name=".RegistroActivity"
             android:exported="true" />
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".MainActivity" />
+
+
         <activity
             android:name=".MainActivity"
             android:exported="true">
