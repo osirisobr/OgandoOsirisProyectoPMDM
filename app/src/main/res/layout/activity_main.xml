@@ -71,7 +71,8 @@
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:hint="Contraseña" />
+            android:hint="Contraseña"
+            tools:inputType="textPassword" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <ImageView
@@ -103,14 +104,5 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/pngegg" />
-
-    <EditText
-        android:id="@+id/editTextTextPassword"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPassword"
-        tools:layout_editor_absoluteX="91dp"
-        tools:layout_editor_absoluteY="493dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
